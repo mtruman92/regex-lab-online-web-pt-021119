@@ -17,5 +17,7 @@ end
 
 def valid_phone_number?(phone)
 if phone.match(/\b^([0-9]{10})$\b/)
-  puts "V"
+  puts "valid_phone_number"
+else
+  puts "invalid"
 end
